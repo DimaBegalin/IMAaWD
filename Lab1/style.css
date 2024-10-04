@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Hobbies Section */
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Distribute the items evenly */
+    align-items: center;
+}
+
+#hobbies li {
+    display: flex;
+    flex-direction: column; /* Arrange images and text vertically */
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+#hobbies img {
+    /* Aesthetic and bigger image size */
+    width: 150px;   /* Bigger image width */
+    height: 150px;  /* Bigger image height */
+    object-fit: cover; /* Ensures images stay within bounds */
+    border-radius: 10px; /* Adds a soft rounded corner for aesthetic */
+    margin-bottom: 1em;
+}
+
+#hobbies li p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Fun Facts Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 1.2em;
+    text-align: left;
+}
+
+/* Footer Section */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
