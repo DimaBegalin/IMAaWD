@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <img id="logo" src="./images/diceeLogo.png" alt="Dice Logo">
+        <h1>Roll the Dice</h1>
+        <div class="dice_container">
+            <img id="dice1" src="images/dice1.png" alt="Dice 1">
+            <img id="dice2" src="images/dice2.png" alt="Dice 2">
+        </div>
+        <div class="buttons">
+            <button id="roll_button">Roll Dice</button>
+            <button id="clear_button">Clear History</button>
+        </div><p id="result"></p>
+        <div id="history"></div>
+    </div>
+    <div id="win_modal_window" class="modal">
+        <div class="modal_content">
+            <span id="close_modal_window">x</span>
+            <h2>You rolled doubles!</h2>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
